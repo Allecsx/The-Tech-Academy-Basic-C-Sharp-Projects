@@ -41,7 +41,7 @@ class Program // Defines the main program class
 
         // Read input and convert to decimal
         decimal length = Convert.ToDecimal(Console.ReadLine());
-        34
+
         // --- CHECK DIMENSION LIMIT ---
         // Add all dimensions together
         decimal dimensionTotal = width + height + length;
@@ -62,8 +62,10 @@ class Program // Defines the main program class
 
         // --- DISPLAY RESULT ---
         // Show the quote formatted as a dollar amount (currency)
-        Console.WriteLine("Your estimated total for shipping this package is: $" + quote);
-
+        Console.WriteLine(
+            "Your estimated total for shipping this package is: " +
+            quote.ToString("C2", System.Globalization.CultureInfo.GetCultureInfo("en-US"))
+        );
         // Prevent the console window from closing immediately
         Console.ReadLine();
     }
