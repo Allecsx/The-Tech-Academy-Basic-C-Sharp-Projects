@@ -40,7 +40,7 @@ class Program
         }
         catch (FormatException)
         {
-            // Handles invalid user input
+            // Handles invalid user inputs
             Console.WriteLine("Please enter a valid numeric value.");
         }
 
