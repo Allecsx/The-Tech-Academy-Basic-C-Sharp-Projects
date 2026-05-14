@@ -16,7 +16,7 @@ class Program
             int dividedResult;
 
             // Call reusable method
-            MathOperations.DivideByTwo(userNumber, out dividedResult);
+            MathOperations1.DivideByTwo(userNumber, out dividedResult);
 
             Console.WriteLine(userNumber + " divided by 2 is: " + dividedResult);
 
@@ -34,7 +34,7 @@ class Program
             double decimalResult;
 
             // Call overloaded method
-            MathOperations.DivideByTwo(decimalNumber, out decimalResult);
+            MathOperations1.DivideByTwo(decimalNumber, out decimalResult);
 
             Console.WriteLine(decimalNumber + " divided by 2 is: " + decimalResult);
         }

@@ -1,7 +1,7 @@
 ﻿using System;
 
 // Static utility class that contains reusable math methods
-public static class MathOperations
+public static class MathOperations1
 {
     // --------------------------------------------------
     // METHOD 1
