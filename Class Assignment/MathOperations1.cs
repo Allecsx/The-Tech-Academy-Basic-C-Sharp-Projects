@@ -21,4 +21,6 @@ public static class MathOperations1
     {
         result = number / 2;
     }
+
+
 }
