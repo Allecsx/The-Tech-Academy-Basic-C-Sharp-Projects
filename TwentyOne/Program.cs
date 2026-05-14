@@ -19,6 +19,7 @@ namespace TwentyOne
             }
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
+            //Card card = new Card();
         }
 
     }
