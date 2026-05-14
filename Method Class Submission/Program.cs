@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // Instantiate the MathOperations class
-        MathOperations math = new MathOperations();
+        MathOperations2 math = new MathOperations2();
 
         // ---------------------------------------
         // CALL METHOD USING POSITIONAL PARAMETERS

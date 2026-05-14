@@ -1,7 +1,7 @@
 ﻿using System;
 
 // Create a class that contains a void method
-public class MathOperations
+public class MathOperations2
 {
     // Void method that takes two integer parameters
     public void DisplayNumbers(int num1, int num2)
