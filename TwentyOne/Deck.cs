@@ -49,7 +49,9 @@ namespace TwentyOne
                 Cards = TempList;
             }
 
+
         }
+
 
     }
 }
