@@ -7,10 +7,9 @@ class Program
         // Instantiate and initialize an Employee1 object
         Employee1 employee = new Employee1()
         {
-            // Set first name
+
             firstName = "Sample",
 
-            // Set last name
             lastName = "Student"
         };
 
