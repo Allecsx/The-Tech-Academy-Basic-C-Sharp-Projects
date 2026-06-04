@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to My Challenge</h1>
+
+    <!-- Customized H2 element with a text of choice -->
+    <h2 class="text-danger">The current time on the server is: @Model.ServerTime</h2>
+
+    <hr />
+    <p>Refresh the page to update the server time.</p>
+</div>
